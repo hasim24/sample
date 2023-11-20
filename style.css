@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar
+{
+    background-color: aqua;
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+}
+#head{
+    text-align: center;
+    padding-top: 50px; 
+}
+.content{
+    padding: 10px;
+}
+.hasim{
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.hasim h3,h5{
+    padding-bottom: 5px;
+    color: aqua;
+}
+.hasim p{
+    text-align: justify;
+}
+.hasim button{
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: aqua;
+    cursor: pointer;
+}
+.over
+{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    display: none;
+    z-index: 1;
+}
+.plus
+{
+    background-color: black;
+    color: aqua;
+    padding: 15px;
+    border-radius: 100%;
+    border: none;
+    font-size: 40;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.popup
+{
+    width: 40%;
+    padding: 10px;
+    background-color: aqua;
+    position: absolute;
+    top: 25%;
+    left: 28%;
+    border-radius: 15px;
+    z-index: 2;
+    display: none;
+}
+
+.popup input{
+    width: 100%;
+    background-color: transparent;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: none;
+    border-bottom: black solid 1px;
+}
+.popup textarea{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: none;
+    border-bottom: black solid 1px;
+}
+.popup input::placeholder{
+    color: black;
+}
+.popup textarea::placeholder{
+    color: black;
+}
+.popup button
+{
+    padding: 5px;
+    background-color: black;
+    color: aqua;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+}
